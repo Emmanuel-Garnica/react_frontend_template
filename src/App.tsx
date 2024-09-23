@@ -1,5 +1,4 @@
-import Counter from './modules/core/components/Counter'
-
+import Counter from 'modules/core/components/Counter'
 import './app.scss'
 
 function App() {
