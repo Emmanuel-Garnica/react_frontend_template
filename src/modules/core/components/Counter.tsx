@@ -2,6 +2,7 @@ import { useState } from 'react'
 
 import reactLogo from '@/assets/react.svg';
 import viteLogo from '/vite.svg';
+import { Button } from '@mui/material';
 
 const Counter = () => {
   const [count, setCount] = useState(0)
@@ -28,6 +29,7 @@ const Counter = () => {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+      <Button variant='contained'>Example button from Material UI</Button>
     </>
   )
 }
